@@ -1,0 +1,48 @@
+Financial Chatbot Prototype
+Developer: Mutammim Alom
+Project: Financial Chatbot for SEC Data Analysis
+
+Description:
+This chatbot provides financial insights based on SEC filings, including revenue, net income, and company growth. It can be accessed via a Flask web API or through automated test queries.
+
+📌 Files in This Project
+
+app.py	The Flask web application that runs the chatbot API.
+test_chatbot.py	A Python script that runs test queries and saves results.
+SEC.csv	The cleaned financial dataset used for analysis.
+chatbot_test_results.csv	The CSV file containing chatbot responses to predefined queries.
+chatbot_test_results.txt	A readable text version of chatbot test results.
+README.txt	This documentation explaining the project.
+
+
+🚀 How to Run the Chatbot
+1️⃣ Run the Flask API (for real-time chatbot use)
+
+Open a terminal and navigate to the project folder:
+cd path/to/your/project
+
+Run the Flask application:
+python app.py
+
+Open your browser and test the chatbot with a query:
+http://127.0.0.1:5000/chatbot?query=What%20is%20the%20total%20revenue?
+Example API response:
+{
+  "response": "The total revenue across all companies is 891,000.00 million USD."
+}
+
+2️⃣ Run Automated Tests
+To generate chatbot responses for predefined queries:
+python test_chatbot.py
+
+This creates chatbot_test_results.csv and chatbot_test_results.txt.
+🔍 Features
+✅ Responds to financial queries such as revenue, net income, and growth.
+✅ Uses real financial data from SEC reports.
+✅ Supports both API interaction & automated testing.
+✅ Saves test results for analysis.
+
+⚠️ Limitations
+🚨 Only supports predefined queries (cannot answer free-text questions).
+🚨 Data is static (not updated automatically).
+🚨 Requires structured queries (e.g., "What is the total revenue?").

@@ -17,7 +17,7 @@ This project is part of the BCG Job Simulation, where a Generative AI-powered ch
 - 
 _This project demonstrates how Generative AI can enhance decision-making in consulting by providing quick, data-driven insights, improving efficiency, and supporting strategic analysis._
 
-**Objective**
+**Objective:**
 In an effort to leverage AI-driven consulting solutions, this project focuses on developing an intelligent chatbot to assist with strategic business analysis. By utilizing Generative AI, the chatbot aims to:
 - Enhance consulting workflows by providing rapid, AI-powered insights.
 - Support market research by analyzing and summarizing industry trends and competitor strategies.

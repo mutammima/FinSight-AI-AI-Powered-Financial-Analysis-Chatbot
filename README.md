@@ -24,3 +24,9 @@ In an effort to leverage AI-driven consulting solutions, this project focuses on
 - Improve decision-making by generating data-driven recommendations tailored to specific business problems.
   
 _As a data scientist working on this project, your responsibility is to design, train, and optimize a GenAI chatbot that can effectively support business consultants in problem-solving and strategic analysis._
+
+
+Importing CSV and processing financial data from the SEC database containing company financials (Tesla, Apple, and Microsoft)
+
+Website:
+glittery-rabanadas-cf7304.netlify.app
